@@ -1,0 +1,63 @@
+Implement the actual code analysis logic in AIDetectionService
+Add proper web crawling logic in WebCrawlerService
+Consider ethical and legal implications of web crawling
+Add rate limiting and robots.txt compliance
+Implement more sophisticated AI detection algorithms
+Add authentication and API key management
+Add data persistence
+Implement proper error handling
+Add visualisation components for the data
+Machine learning model to improve AI detection accuracy
+Pattern recognition for identifying AI frameworks and libraries
+Network activity monitoring for determining code status
+API rate limiting and caching
+Database storage for historical analysis
+Visualisation tools for tracking trends
+Reporting functionality
+npx create-react-app ai-pollution-measure --template typescript
+cd ai-pollution-measure
+
+
+
+
+
+A ScanResult interface that defines what we're measuring:
+
+Bot activity (automated scripts/crawlers)
+Resource waste (unnecessary loading/processing)
+Tracking level (analytics and tracking scripts)
+Spam score (content quality assessment)
+Overall pollution score
+List of specific issues found
+A simulated scanning function that would eventually need to be connected to a real backend service that can:
+
+Crawl the provided URL
+Analyze page content and behavior
+Check for bot patterns
+Measure resource usage
+Detect tracking scripts
+Identify spam patterns
+A results display that shows:
+
+Individual scores for each metric
+Total pollution score
+Specific issues found
+Timestamp of the scan
+To make this actually functional, you would need to:
+
+Create a backend service that can safely crawl websites
+Implement real detection algorithms for each metric
+Add proper error handling and validation
+Add rate limiting and security measures
+Store scan results in a database
+Add more sophisticated analysis tools
+Some actual metrics you might want to implement:
+
+Check for hidden links and spam content
+Analyze script loading and execution time
+Count number of third-party trackers
+Detect aggressive pop-ups and notifications
+Measure bandwidth usage
+Check for cryptomining scripts
+Analyze ad density
+Check for dark patterns in UI/UX
